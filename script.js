@@ -1,7 +1,7 @@
 
    function getWeather() {
     // Get API key from environment variable
-    const apiKey = process.env.WEATHER_API_KEY;
+    const apiKey = "36028a0002c54100ab0183251252501";
 
     const city = document.getElementById('city').value;
 
